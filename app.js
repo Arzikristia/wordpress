@@ -24,7 +24,7 @@ export default (express, bodyParser, createReadStream, crypto, http, MongoClient
 
         const wordpressResponse = await axios.post(
             'https://wordpress.kodaktor.ru/wp-json/wp/v2/posts',
-            { content, title: 'Kristina 4.12.2021', status: 'publish' },
+            { content, title: 'kristia98', status: 'publish' },
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
